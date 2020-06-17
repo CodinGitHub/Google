@@ -1,0 +1,15 @@
+*{
+    padding: 0%;    
+    margin: 0%;
+}
+
+.topnav{
+    text-align: right;
+    padding: 20px;
+}
+
+footer{
+    position: fixed;
+    padding-inline-start: 20px;
+    bottom: 0%;
+}
