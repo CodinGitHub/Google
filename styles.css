@@ -1,6 +1,8 @@
-*{
+body{
     padding: 0%;    
     margin: 0%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
 }
 
 .topnav{
@@ -10,13 +12,51 @@
 
 footer{
     position: fixed;
-    padding-inline-start: 20px;
     bottom: 0%;
+    width: 100%;
+    background-color: #f2f2f2;
+    font-size: 10px;
+}
+
+.f_alone{
+    border-width: 1px;
+    border-top-color: #BDBDBD;
+    border-top-style: solid;
+    border-bottom-color:#BDBDBD ;
+    border-bottom-style: solid;
+
+    width: 100%;
+
+    margin: inherit;
+    padding: 10px;
 }
 
 .f_left{
+    border-width: 1px;
+    border-top-color: #BDBDBD;
+    border-top-style: solid;
+    border-bottom-color:#BDBDBD ;
+    border-bottom-style: solid;
 
+    width: 100%;
+
+    margin: inherit;
+    padding: 10px;
 }
 
 .f_right{
+    border-width: 1px;
+    border-top-color: #BDBDBD;
+    border-top-style: solid;
+    border-bottom-color:#BDBDBD ;
+    border-bottom-style: solid;
+
+    width: 100%;
+
+    margin: inherit;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
 }
