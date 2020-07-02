@@ -2,12 +2,71 @@ body{
     padding: 0%;    
     margin: 0%;
     font-family: 'Roboto', sans-serif;
-    font-size: 10px;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo{
+    margin: 20px;
+}
+
+.s_container{
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    width: 482px;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 .topnav{
     text-align: right;
-    padding: 20px;
+    padding: 25px;
+    color: rgba(0,0,0,0.87)
+}
+
+.boton{
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.buscador{
+    background-color:transparent;
+    border:none;
+    margin:0;
+    padding:0;
+    color:rgba(0,0,0,.87);
+    word-wrap:break-word;
+    outline:none;
+    display:flex;
+    flex:100%;
+    -webkit-tap-highlight-color:transparent;
+    margin-top:-37px;
+    height:34px;
+    font-size:16px
 }
 
 footer{
@@ -57,6 +116,59 @@ footer{
     padding: 10px;
 }
 
-a{
-    text-decoration: none;
+.search{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    font: 16px arial,sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+}
+
+.voice{
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+.lupa{
+    margin-top: 3px;
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    fill: currentColor;
+    height: 24px;
+    line-height: 24px;
+    position: relative;
+    width: 24px;
+}
+
+section{
+    padding-top: 109px;
+}
+
+.login{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    background: #4285f4;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    background: linear-gradient(top,#4387fd,#4683ea);
+    display: inline-block;
+    line-height: 28px;
+    padding: 0 12px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px; 
+    color: #fff;
 }
